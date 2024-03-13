@@ -33,7 +33,7 @@ const Navbar = () => {
 				</button>
 
 				<div
-					className={`bg-purple-500 fixed min-h-screen top-16 w-44 right-0 transition md:hidden transform duration-300 ${
+					className={`bg-purple-500 fixed min-h-screen top-14 w-44 right-0 transition md:hidden transform duration-300 ${
 						menuOpen ? 'translate-x-0' : 'translate-x-full'
 					}`}
 				>
