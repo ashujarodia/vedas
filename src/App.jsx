@@ -1,6 +1,7 @@
 import './App.css';
 import AboutPuja from './components/AboutPuja';
 import Banner from './components/Banner';
+import InstallButton from './components/InstallButton';
 import Navbar from './components/Navbar';
 import Package from './components/Package';
 import PujaDetails from './components/PujaDetails';
@@ -15,6 +16,7 @@ function App() {
 			<Package />
 			<PujaDetails />
 			<Testimonials />
+			<InstallButton />
 		</>
 	);
 }
